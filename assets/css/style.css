@@ -38,19 +38,60 @@
 
 /* HERO SECTION START */
 .hero{
-    background-color: #B9C9B0;
+    background-color: rgba(185, 201, 176, 1);
     width: 100%;
-    padding: 25px 0px 25px 0px;
+    border-radius: 10px;
+
 }
 .hero .container{
     display: flex;
     width: 90%;
     margin: auto;
+    padding: 25px 0px 25px 0px;
+    position: relative;
+    height: 200px;
 }
 .hero .container .txt{
     width: 70%;
+    z-index: 2;
 }
 .hero .container .txt .text h2{
     font-family: 'Inter', sans-serif;
     color: #063657;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.hero .container .btn{
+    display: flex;
+    justify-content: space-between;
+}
+.hero .container .btn .btn1{
+    font-family: 'Inter', sans-serif;
+    padding: 15px 13px 15px 13px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(6, 54, 87, 1);
+    color: #FFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+.hero .container .btn .btn2{
+    font-family: 'Inter', sans-serif;
+    padding: 15px 20px 15px 20px;
+    border-radius: 8px;
+    border: 2px solid rgba(6, 54, 87, 1);
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(6, 54, 87, 1);
+}
+.hero .container .img{
+    background-image: url(/assets/images/overjoyed-dark-skinned-guy-concentrated-smartphone_273609-37410-removebg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    height: 190px;
+    left: 76px;
+    top: 0px;
+    z-index: 1;
 }
