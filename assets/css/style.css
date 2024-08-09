@@ -19,6 +19,7 @@
 .header{
     background-color: #FFFF;
     padding: 20px 20px 20px 20px;
+    position: sticky;
 }
 .header .nav-mobile{
     display: flex;
