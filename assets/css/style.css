@@ -9,3 +9,41 @@
 #FFC107
 #B9C9B0
 */
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* HEADER SECTION START */
+.header{
+    background-color: #FFFF;
+    padding: 20px 20px 20px 20px;
+}
+.header .nav-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .nav-mobile .logo h1{
+    font-family: 'Inter', sans-serif;
+    color: #063657;
+    font-size: 25px;
+}
+.header .nav-mobile .menu .fa-solid{
+    font-size: 25px;
+    color: #353636;
+}
+/* HEADER SECTION END */
+
+/* HERO SECTION START */
+.hero{
+    background-color: #B9C9B0;
+    width: 100%;
+}
+.hero .container{
+    display: flex;
+    background-color: red;
+    width: 90%;
+    margin: auto;
+}
