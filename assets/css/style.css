@@ -40,10 +40,17 @@
 .hero{
     background-color: #B9C9B0;
     width: 100%;
+    padding: 25px 0px 25px 0px;
 }
 .hero .container{
     display: flex;
-    background-color: red;
     width: 90%;
     margin: auto;
+}
+.hero .container .txt{
+    width: 70%;
+}
+.hero .container .txt .text h2{
+    font-family: 'Inter', sans-serif;
+    color: #063657;
 }
