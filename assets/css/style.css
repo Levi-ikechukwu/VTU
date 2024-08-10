@@ -119,8 +119,8 @@
 .services .container{
     background-color: #FFFF;
     width: 90%;
-    height: 500px;
     margin: auto;
+    position: relative;
 }
 .services .container h2{
     color: #063657;
@@ -142,4 +142,49 @@
     background-color: #FFC107;
     margin-bottom: 20px;
     border-radius: 8px;
+    padding: 16px;
+}
+.services .container .divs .div h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 2px;
+}
+.services .container .divs .div p{
+    font-family: 'Inter', sans-serif;
+    color: #353636;
+    font-size: 15px;
+}
+.services .container .divs .div .content{
+    width: 100%;
+    margin-top: 20px;
+
+}
+.services .container .divs .div .content .icons{
+    background-image: url(/assets/images/image\ 5.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 110px;
+}
+.services .container .divs .div  .tp{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    position: absolute;
+    right:  0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    top: 185px;
+    color: #FFC107;
+}
+.services .container .divs .div  .tp .fa{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 6px;
+    font-weight: 700;
+    
 }
