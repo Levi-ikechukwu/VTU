@@ -19,7 +19,10 @@
 .header{
     background-color: #FFFF;
     padding: 20px 20px 20px 20px;
-    position: sticky;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
 }
 .header .nav-mobile{
     display: flex;
@@ -44,6 +47,8 @@
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    top: 70px;
+    margin-bottom: 90px;
 }
 .hero .container{
     display: flex;
@@ -54,19 +59,19 @@
 }
 .hero .container .txt{
     width: 80%;
-   
     z-index: 2;
+    margin-top: 30px;
 }
 .hero .container .txt .text h2{
     font-family: 'Inter', sans-serif;
     color: #063657;
-    font-size: 31px;
+    font-size: 33px;
     font-weight: 700;
 }
 .hero .container .btn{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 30px;
     width: 80%;
 }
 .hero .container .btn .btn1{
@@ -96,7 +101,45 @@
     background-size: cover;
     height: 280px;
     top: -10px;
-    right: 0px;
+    right: -15px;
     z-index: 1;
+}
+
+/* HERO SECTION END*/
+
+
+/*SERVICES SECTION START */
+
+.services{
+    width: 100%;
+    height: 500px;
+    background-color: #FFFF;
+    width: 100%;
+}
+.services .container{
+    background-color: #FFFF;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+}
+.services .container h2{
+    color: #063657;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.services .container .divs{
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
    
+}
+.services .container .divs .div{
+    width: 100%;
+    height: 200px;
+    background-color: #FFC107;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
