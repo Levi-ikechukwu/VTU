@@ -39,7 +39,7 @@
 
 /* HERO SECTION START */
 .hero{
-    background-color: #f0ededfa;
+    background-color: #E1E2E4;
     width: 100%;
     border-radius: 10px;
     position: relative;
@@ -95,7 +95,7 @@
     background-size: cover;
     height: 280px;
     top: -10px;
-    left: 70px;
+    right: 0px;
     z-index: 1;
    
 }
