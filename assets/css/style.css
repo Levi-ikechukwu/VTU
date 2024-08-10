@@ -67,10 +67,12 @@
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    width: 80%;
+    background-color: red;
 }
 .hero .container .btn .btn1{
     font-family: 'Inter', sans-serif;
-    padding: 15px 13px 15px 13px;
+    padding: 13px 22px 13px 22px;
     border-radius: 8px;
     border: none;
     background-color: rgba(6, 54, 87, 1);
@@ -80,7 +82,7 @@
 }
 .hero .container .btn .btn2{
     font-family: 'Inter', sans-serif;
-    padding: 15px 20px 15px 20px;
+    padding: 13px 29px 13px 29px;
     border-radius: 8px;
     border: 2px solid rgba(6, 54, 87, 1);
     font-weight: 500;
