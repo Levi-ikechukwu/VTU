@@ -99,8 +99,8 @@
     background-repeat: no-repeat;
     position: absolute;
     background-size: cover;
-    height: 260px;
-    top: 10px;
+    height: 250px;
+    top: 20px;
     right: 2px;
     z-index: 1;
 }
