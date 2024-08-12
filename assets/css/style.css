@@ -99,9 +99,15 @@
     background-repeat: no-repeat;
     position: absolute;
     background-size: cover;
+<<<<<<< HEAD
     height: 270px;
     top: 0px;
     right: -110px;
+=======
+    height: 270px;
+    top: 0px;
+    right: -11px;
+>>>>>>> cabeb02da52474acafb664d26f9e556cd1a7c57e
     z-index: 1;
 }
 
@@ -190,6 +196,7 @@
     font-weight: 700;
     
 }
+<<<<<<< HEAD
 .services .container .divs .div2{
     /* padding-bottom: 30px; */
     position: relative;
@@ -275,3 +282,5 @@
     top: 190px;
     color: #FFC107;
 }
+=======
+>>>>>>> cabeb02da52474acafb664d26f9e556cd1a7c57e
