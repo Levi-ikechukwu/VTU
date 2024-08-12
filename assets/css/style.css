@@ -60,18 +60,18 @@
 .hero .container .txt{
     width: 80%;
     z-index: 2;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .hero .container .txt .text h2{
     font-family: 'Inter', sans-serif;
     color: #063657;
-    font-size: 33px;
+    font-size: 35px;
     font-weight: 700;
 }
 .hero .container .btn{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 80%;
 }
 .hero .container .btn .btn1{
@@ -94,14 +94,14 @@
     color: rgba(6, 54, 87, 1);
 }
 .hero .img{
-    background-image: url(/assets/images/Frame_81-removebg-preview.png);
+    background-image: url(/assets/images/overjoyed-dark-skinned-guy-concentrated-smartphone_273609-37410-removebg.png);
     width: 100%;
     background-repeat: no-repeat;
     position: absolute;
     background-size: cover;
-    height: 260px;
-    top: 10px;
-    right: 40px;
+    height: 270px;
+    top: 0px;
+    right: -110px;
     z-index: 1;
 }
 
@@ -138,36 +138,38 @@
 }
 .services .container .divs .div{
     width: 100%;
-    height: 200px;
+    height: 230px;
     background-color: #FFC107;
     margin-bottom: 20px;
     border-radius: 8px;
-    padding: 35px 0px 0px 15px;
+    padding: 30px 0px 0px 10px;
 }
 .services .container .divs .div h2{
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    line-height: 2px;
+    font-size: 27px;
+    line-height: 7px;
 }
 .services .container .divs .div p{
     font-family: 'Inter', sans-serif;
     color: #353636;
-    font-size: 15px;
+    font-size: 20px;
 }
 .services .container .divs .div .content{
     width: 100%;
     margin-top: 0px;
 
 }
-.services .container .divs .div .content .icons{
-    background-image: url(/assets/images/image\ 5.png);
+.services .container .divs .div1 .content .icons{
+    background-image: url(/assets/images/image\ 4@1x.png);
     background-position-x: -25px;
     background-size: contain;
     background-repeat: no-repeat;
     width: 90%;
-    height: 140px;
+    height: 150px;
+    position: relative;
+    top: 15px;
 }
-.services .container .divs .div  .tp{
+.services .container .divs .div1  .tp{
     width: 48%;
     display: flex;
     align-items: center;
@@ -178,7 +180,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     font-weight: 600;
-    top: 195px;
+    top: 225px;
     color: #FFC107;
 }
 .services .container .divs .div  .tp .fa{
@@ -187,4 +189,89 @@
     padding-left: 6px;
     font-weight: 700;
     
+}
+.services .container .divs .div2{
+    /* padding-bottom: 30px; */
+    position: relative;
+}
+.services .container .divs .div2 .content .icons{
+    background-image: url(/assets/images/Group\ 57.png);
+    background-position-x: -39px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 138px;
+    position: relative;
+    top: 20px;
+}
+.services .container .divs .div2  .tp{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    position: absolute;
+    right:  -8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    top: 185px;
+    color: #FFC107;
+}
+.services .container .divs .div3{
+    /* padding-bottom: 30px; */
+    position: relative;
+}
+.services .container .divs .div3 .content .icons{
+    background-image: url(/assets/images/3d\ render\ smartphone\ payment\ confirmation\ bill.png);
+    background-position-x: -15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 138px;
+    position: relative;
+    top: 0px;
+}
+.services .container .divs .div3  .tp{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    position: absolute;
+    right:  -8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    top: 190px;
+    color: #FFC107;
+}
+
+.services .container .divs .div4{
+    /* padding-bottom: 30px; */
+    position: relative;
+}
+.services .container .divs .div4 .content .icons{
+    background-image: url(/assets/images/image\ 2.png);
+    background-position-x: px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 138px;
+    position: relative;
+    top: 0px;
+}
+.services .container .divs .div4  .tp{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    position: absolute;
+    right:  -8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    top: 190px;
+    color: #FFC107;
 }
