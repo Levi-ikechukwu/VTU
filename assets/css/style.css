@@ -15,6 +15,10 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 /* HEADER SECTION START */
 .header{
     background-color: #FFFF;
@@ -107,11 +111,13 @@
 /* HERO SECTION END*/
 
 
+
+
 /*SERVICES SECTION START */
 
 .services{
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     background-color: #FFFF;
     width: 100%;
 }
@@ -119,7 +125,7 @@
     background-color: #FFFF;
     width: 90%;
     margin: auto;
-    position: relative;
+    /* position: relative; */
 }
 .services .container h2{
     color: #063657;
@@ -193,6 +199,10 @@
     top: 80px;
     left: 90px;
 }
+.services .container .divs .div1{
+    /* padding-bottom: 30px; */
+    position: relative;
+}
 .services .container .divs .div1  .tp{
     width: 48%;
     display: flex;
@@ -204,7 +214,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 600;
-    top: 225px;
+    top: 185px;
     color: #FFC107;
 }
 .services .container .divs .div  .tp .fa{
@@ -212,7 +222,6 @@
     padding-top: 5px;
     padding-left: 6px;
     font-weight: 700;
-    
 }
 
 .services .container .divs .div2{
@@ -335,4 +344,56 @@
     font-weight: 600;
     top: 190px;
     color: #FFC107;
+}
+/*SERVICES SECTION END */
+
+
+
+/*WHY CHHOOSE US SECTION START */
+.why{
+    width: 100%;
+    /* background-color: red; */
+}
+.why .container{
+    width: 90%;
+    margin: auto;
+
+}
+.why .container h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #063657;
+    padding-bottom: 7px;
+}
+.why .container .txt{
+    width: 95%;
+    margin: auto;
+}
+.why .container .txt .txt1{
+    margin-bottom: 10px;
+}
+.why .container .txt .txt1 .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.why .container .txt .txt1 .head h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #063657;
+    padding-left: 4px;
+    font-size: 25px;
+}
+.why .container .txt .txt1 .head .mm{
+ font-size: 20px;
+ text-align: center;
+ padding-bottom: 3px;
+ color: #063657;
+}
+.why .container .txt .txt1 p{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    color: #363535;
 }
