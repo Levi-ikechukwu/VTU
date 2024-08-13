@@ -410,6 +410,7 @@ html{
     margin: auto;
     border-radius: 10px;
     padding: 20px 15px;
+    margin-bottom: 45px;
 }
 .test .text p{
     font-family: 'Inter', sanserif;
