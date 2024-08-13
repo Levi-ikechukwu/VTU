@@ -168,6 +168,30 @@
     position: relative;
     top: 15px;
 }
+.services .container .divs .div1 .content .icons .img1{
+    width: 20%;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.services .container .divs .div1 .content .icons .img2{
+    width: 20%;
+    position: absolute;
+    top: 8px;
+    left: 35px;
+}
+.services .container .divs .div1 .content .icons .img3{
+    width: 20%;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+}
+.services .container .divs .div1 .content .icons .img4{
+    width: 10%;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
 .services .container .divs .div1  .tp{
     width: 48%;
     display: flex;
@@ -195,14 +219,32 @@
     position: relative;
 }
 .services .container .divs .div2 .content .icons{
-    background-image: url(/assets/images/Group\ 57.png);
-    background-position-x: -39px;
+    background-image: url(/assets/images/Remove-bg.ai_1723453554899.png);
+    background-position-x: -60px;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 90%;
-    height: 138px;
+    width: 100%;
+    height: 148px;
     position: relative;
+    top: 10px;
+}
+.services .container .divs .div2 .content .icons .img1{
+    width: 10%;
+    position: absolute;
     top: 20px;
+    left: 10px;
+}
+.services .container .divs .div2 .content .icons .img2{
+    width: 10%;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+.services .container .divs .div2 .content .icons .img3{
+    width: 10%;
+    position: absolute;
+    top: 100px;
+    left: 150px;
 }
 .services .container .divs .div2  .tp{
     width: 48%;
