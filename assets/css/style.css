@@ -399,8 +399,20 @@ html{
 }
 
 
-
-
+.testi{
+    width:100%;
+    margin-bottom: 10px;
+}
+.testi .container{
+    width: 90%;
+    margin: auto;
+}
+.testi .container h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #063657;
+}
 
 
 .test{
