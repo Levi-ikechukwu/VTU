@@ -393,15 +393,14 @@ html{
 .why .container .txt .txt1 p{
     font-size: 16px;
     font-family: 'Inter', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     text-align: justify;
     color: #424141;
 }
-
-
 .testi{
     width:100%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
 .testi .container{
     width: 90%;
@@ -417,21 +416,68 @@ html{
 
 .test{
     width: 90%;
-    height: 200px;
+    /* height: 200px; */
     background-color: #E1E2E4;
     margin: auto;
     border-radius: 10px;
-    padding: 20px 15px;
+    padding: 25px 15px;
     margin-bottom: 45px;
 }
 .test .text p{
     font-family: 'Inter', sanserif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
 }
+.test .pic{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+}
+.test .pic .name h2{
+    font-size: 20px;
+    color: #353636;
+    font-family: 'Inter', sans-serif;
+}
+.test .pic .profile{
+    width: 50%;
+    height: 65px;
+    /* background-color: white; */
+    background-image: url(/assets/images/Ellipse\ 9@1x.png);
+    background-repeat: no-repeat;
+    background-position-x: 45px ;
+    background-size: contain;
+}
+.swiper .next{
+    background-color: #063757;
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
+    position: absolute;
+    top: 100px;
+    right: 2px;
+}
+.swiper .prev{
+    background-color: #063757;
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
+    position: absolute;
+    top: 100px;
+    left: 3px;
+}
 
- /* .test .pic{
-    background-color: red;
-    width: 100%;
-    height: 50px;
- } */
+.swiper .next .bx,
+.swiper .prev .bx{
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+}
+.swiper .next::after,
+.swiper .prev::after{
+content: "";
+}
+.swiper .swiper-pagination-bullet-active{
+    background-color:#063757 !important;
+}
