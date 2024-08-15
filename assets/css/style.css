@@ -497,7 +497,7 @@ content: "";
 .partners .container h2{
     font-family: 'Inter', sans-serif;
     font-size: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     padding-left: 30px;
     color: #063657;
 }
@@ -505,7 +505,7 @@ content: "";
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    animation: 10s slide infinite linear;
+    animation: 20s slide infinite linear;
     gap: 3%;
    /* background-color: red; */
 }
@@ -582,9 +582,114 @@ content: "";
 }
 @keyframes slide{
         from{
-            transform: translateX(-90%);
+            transform: translateX(0);
         }
         to{
-            transform: translateX(100%);
+            transform: translateX(-100%);
         }
+}
+
+.log{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ffc10734;
+    /* margin-bottom: 20px; */
+}
+.log .container{
+    width: 85%;
+    margin: auto;
+    padding: 25px 0px;
+}
+.log .container h1{
+        font-family: 'Inter', sans-serif;
+        color: #063657;
+        font-size: 25px;
+        padding-bottom: 12px;
+ }
+ .log .container h2{
+    font-family: 'Inter', sans-serif;
+    color: #063657;
+    font-size: 21px;
+    padding-bottom: 15px;
+}
+.log .container .btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 80%;
+}
+.log .container .btn .btn1{
+    font-family: 'Inter', sans-serif;
+    padding: 13px 22px 13px 22px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(6, 54, 87, 1);
+    color: #FFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+.log .container .btn .btn2{
+    font-family: 'Inter', sans-serif;
+    padding: 13px 29px 13px 29px;
+    border-radius: 8px;
+    border: 2px solid rgba(6, 54, 87, 1);
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(6, 54, 87, 1);
+}
+footer{
+    width: 100%;
+    background-color: #063657;
+    padding: 50px 0px;
+}
+footer .container{
+    margin: auto;
+    width: 90%;
+}
+footer .container .div{
+    display: flex;
+    gap: 10%;
+    flex-wrap: nowrap;
+}
+footer .container .div .div1 h2{
+    font-family: 'Inter', sans-serif; 
+    color: #FFF;
+    font-size: 22px;
+    padding: 8px 0px;
+    font-weight: 600;
+}
+footer .container .div .div1 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding: 7px 0px;
+    color: #E1E2E4;
+}
+footer .container .div .div1 .logo{
+    margin-top: 10px;
+}
+footer .container .div .div1 .logo .bx,
+footer .container .div .div1 .logo .fa-brands{
+    font-size: 30px;
+    color: #FFF;
+    padding-right: 5px;
+}
+footer .container .div .div1{
+    width: 48%;
+}
+footer .container .div .div2{
+    width: 48%;
+    text-align: center;
+}
+footer .container .div .div2 h2{
+    font-family: 'Inter', sans-serif; 
+    color: #FFF;
+    font-size: 22px;
+    padding: 5px 0px;
+    font-weight: 600;
+}
+footer .container .div .div2 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding: 6px 0px;
+    color: #E1E2E4;
 }
