@@ -408,25 +408,25 @@ html{
 }
 .testi .container h2{
     font-family: 'Inter', sans-serif;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 600;
     color: #063657;
 }
-
-
 .test{
     width: 90%;
-    /* height: 200px; */
+    /* height: 210px; */
     background-color: #E1E2E4;
     margin: auto;
     border-radius: 10px;
-    padding: 25px 15px;
+    padding: 35px 28px;
     margin-bottom: 45px;
 }
 .test .text p{
     font-family: 'Inter', sanserif;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 400;
+    font-style: italic;
+    text-align: justify;
 }
 .test .pic{
     /* background-color: red; */
@@ -451,20 +451,20 @@ html{
 }
 .swiper .next{
     background-color: #063757;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 70px;
     position: absolute;
-    top: 100px;
+    top: 130px;
     right: 2px;
 }
 .swiper .prev{
     background-color: #063757;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 70px;
     position: absolute;
-    top: 100px;
+    top: 130px;
     left: 3px;
 }
 
@@ -480,4 +480,111 @@ content: "";
 }
 .swiper .swiper-pagination-bullet-active{
     background-color:#063757 !important;
+}
+
+.partners{
+    width: 100%;
+    background-color: #FFFF;
+    margin-top: 10px;
+}
+.partners .container{
+    /* background-color: red; */
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.partners .container h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    color: #063657;
+}
+.partners .container .marquee {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    animation: 10s slide infinite linear;
+    gap: 3%;
+   /* background-color: red; */
+}
+.partners .container .marquee .d1{
+    height: 50px;
+    width: 50%;
+}
+.partners .container:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    z-index: 100000;
+    content: "";
+}
+.partners .container:after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+    z-index: 100000;
+    content: "";
+}
+.partners .container .marquee .d1{
+    width: 25%;
+   background-image: url(/assets/images/amazon-removebg-preview.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    /* background-color: red; */
+}
+.partners .container .marquee .d2{
+    width: 20%;
+   background-image: url(/assets/images/mtn-logo-872C5CC8E9-seeklogo.com.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+    /* background-color: red; */
+}
+.partners .container .marquee .d3{
+    width: 25%;
+   background-image: url(/assets/images/images-removebg-preview.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+    /* background-color: red; */
+}
+.partners .container .marquee .d4{
+    width: 25%;
+   background-image: url(/assets/images/th-removebg-preview\ \(1\).png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+    /* background-color: red; */
+}
+.partners .container .marquee .d5{
+    width: 35%;
+   background-image: url(/assets/images/gotv-removebg-preview.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.partners .container .marquee .d6{
+    width: 30%;
+   background-image: url(/assets/images/spectranet-removebg-preview.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+    /* background-color: red; */
+}
+@keyframes slide{
+        from{
+            transform: translateX(-90%);
+        }
+        to{
+            transform: translateX(100%);
+        }
 }
