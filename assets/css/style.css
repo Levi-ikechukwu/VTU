@@ -72,6 +72,36 @@ html{
     font-size: 35px;
     font-weight: 700;
 }
+.hero .container .txt .text .slides{
+  
+    display: inline-flex;
+    height: 40px;
+    overflow: hidden;
+}
+.hero .container .txt .text .slides .slide1{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+
+    transform: translateY(100%);
+    animation: slide-up 9s ease infinite;
+}
+@keyframes slide-up{
+    10%, 33%{
+        transform: translateY(0%);
+    }
+    43%, 66%{
+        transform: translateY(-100%);
+    }
+    76%, 100%{
+        transform: translateY(-200%);
+    }
+}
+.hero .container .txt .text .slides .slide1 span{
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
 .hero .container .btn{
     display: flex;
     justify-content: space-between;
