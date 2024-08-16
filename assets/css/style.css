@@ -84,20 +84,20 @@ html{
     flex-flow: column nowrap;
 
     transform: translateY(100%);
-    animation: slide-up 9s ease infinite;
+    animation: slide-up 8s ease infinite;
 }
 @keyframes slide-up{
-    10%, 33%{
+    25%{
         transform: translateY(0%);
     }
-    43%, 66%{
+    50%{
         transform: translateY(-100%);
     }
-    76%, 90%{
+    75%{
         transform: translateY(-200%);
     }
-     86%, 100%{
-        transform: translateY(-300%);
+     100%{
+        transform: translateY(-310%);
     }
 }
 .hero .container .txt .text .slides .slide1 span{
