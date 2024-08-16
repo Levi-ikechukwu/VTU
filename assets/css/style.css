@@ -82,21 +82,20 @@ html{
     display: flex;
     flex-direction: column;
     flex-flow: column nowrap;
-
     transform: translateY(100%);
-    animation: slide-up 8s ease infinite;
+    animation: slide-up 7s ease infinite;
 }
 @keyframes slide-up{
-    25%{
+    25%, 20%{
         transform: translateY(0%);
     }
-    50%{
-        transform: translateY(-100%);
+    50%, 50%{
+        transform: translateY(-110%);
     }
-    75%{
-        transform: translateY(-200%);
+    75%, 80%{
+        transform: translateY(-210%);
     }
-     100%{
+     100%,100%{
         transform: translateY(-310%);
     }
 }
