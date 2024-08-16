@@ -27,21 +27,70 @@ html{
     top: 0px;
     z-index: 100;
     width: 100%;
+    
 }
-.header .nav-mobile{
+.header  .logo{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.header .nav-mobile .logo h1{
+.header  .logo h1{
     font-family: 'Inter', sans-serif;
     color: #063657;
     font-size: 25px;
 }
-.header .nav-mobile .menu .fa-solid{
+.header  .fa-solid{
     font-size: 25px;
     color: #353636;
 }
+.header .nav-mobile{
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    position: absolute;
+    background-color: #063657;
+    width: 100%;
+    height: 100vh;
+    z-index: 500000;
+}
+.header .nav-mobile nav{
+   width: 80%;
+   background-color: #063657;
+   margin: auto;
+   height: 100vh;
+   padding-top: 30px;
+}
+.header .nav-mobile nav .logo {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.header .nav-mobile nav .logo h1{
+    color: white;
+    font-size: 20px;
+}
+.header .nav-mobile nav .bx{
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+}
+
+.header .nav-mobile ul li{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.header .nav-mobile ul li a{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
 /* HEADER SECTION END */
 
 /* HERO SECTION START */
@@ -545,26 +594,26 @@ content: "";
     height: 50px;
     width: 50%;
 }
-.partners .container:before{
+/* .partners .container:before{
     position: absolute;
     top: 0;
     left: 0;
     width: 35px;
     height: 100%;
     background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
-    z-index: 100000;
+    z-index: 1000;
     content: "";
-}
-.partners .container:after{
+} */
+/* .partners .container:after{
     position: absolute;
     top: 0;
     right: 0;
     width: 35px;
     height: 100%;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
-    z-index: 100000;
+    z-index: 1000;
     content: "";
-}
+} */
 .partners .container .marquee .d1{
     width: 25%;
    background-image: url(/assets/images/amazon-removebg-preview.png);

@@ -1,19 +1,17 @@
-// var swiper = new Swiper(".mySwiper", {
-//     spaceBetween: 30,
-//     centeredSlides: true,
-//     autoplay: {
-//       delay: 4500,
-//       disableOnInteraction: false,
-//     },
-//     pagination: {
-//       el: ".swiper-pagination",
-//       clickable: true,
-//     },
-//     navigation: {
-//       nextEl: ".swiper-button-next",
-//       prevEl: ".swiper-button-prev",
-//     },
-//   });
+var mobile = document.getElementById("mobile");
+var open = document.getElementById("open");
+var close = document.getElementById("close");
+
+
+
+open.addEventListener("click", function(){
+  mobile.style.display = "flex"
+  
+})
+close.addEventListener("click", function(){
+  mobile.style.display = "none"
+})
+
 
 
 var swiper = new Swiper(".mySwiper", {
@@ -28,3 +26,5 @@ var swiper = new Swiper(".mySwiper", {
   mousewheel: true,
   keyboard: true,
 });
+
+
