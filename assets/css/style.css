@@ -73,7 +73,7 @@ html{
     font-weight: 700;
 }
 .hero .container .txt .text .slides{
-  
+
     display: inline-flex;
     height: 40px;
     overflow: hidden;
@@ -93,8 +93,11 @@ html{
     43%, 66%{
         transform: translateY(-100%);
     }
-    76%, 100%{
+    76%, 90%{
         transform: translateY(-200%);
+    }
+     86%, 100%{
+        transform: translateY(-300%);
     }
 }
 .hero .container .txt .text .slides .slide1 span{
