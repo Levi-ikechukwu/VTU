@@ -48,18 +48,38 @@ html{
     top: 0;
     left: 0;
     justify-content: space-between;
-    position: absolute;
+   position: fixed;
     background-color: #063657;
     width: 100%;
     height: 100vh;
     z-index: 500000;
 }
 .header .nav-mobile nav{
-   width: 80%;
+   width: 85%;
    background-color: #063657;
    margin: auto;
-   height: 100vh;
-   padding-top: 30px;
+   height: 200vh;
+   padding-top: 10px;
+}
+.header .nav-mobile nav .footer{
+    position: relative;
+    top: 70px;
+}
+.header .nav-mobile nav .footer hr{
+    margin-bottom: 10px;
+}
+.header .nav-mobile nav .footer h1{
+    font-size: 17px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    align-items: center;;
+    display: flex;
+    padding-bottom: 9px;
+    font-weight: 400;
+}
+.header .nav-mobile nav .footer h1 .bx{
+    font-size: 19px;
+    margin-right: 5px;
 }
 .header .nav-mobile nav .logo {
     display: flex;
@@ -68,7 +88,7 @@ html{
 }
 .header .nav-mobile nav .logo h1{
     color: white;
-    font-size: 20px;
+    font-size: 23px;
 }
 .header .nav-mobile nav .bx{
     font-size: 35px;
