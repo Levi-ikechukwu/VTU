@@ -883,10 +883,32 @@ REGISTRATION PAGE */
     outline: none;
     width: 100%;
 }
-.form .container form input:focus,
-.form .container form input:valid{
+.form .container form input:focus{
     border-color: #063657;
 }
 .form .container form input:active{
     border: 1px solid  rgba(6, 54, 87, 0.5);
+}
+.btn2{
+
+   width: 90%;
+   margin: auto;
+   margin-top: 30px ;
+   margin-bottom: 30px;
+}
+ .btn2 .btn1 a{
+    color: #FFFF;
+    text-decoration: none;
+}
+ .btn2 .btn1{
+    font-family: 'Inter', sans-serif;
+    padding: 13px 22px 13px 22px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(6, 54, 87, 1);
+    color: #FFFF;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    left: 190px;
 }
