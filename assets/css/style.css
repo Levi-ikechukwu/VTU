@@ -859,12 +859,12 @@ REGISTRATION PAGE */
 .form .container p{
     font-family: 'Inter', sans-serif;
     color: #353636;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 15px;
 }
 .form .container form{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .form .container form h2{
     font-family: 'Inter', sans-serif;
@@ -880,8 +880,12 @@ REGISTRATION PAGE */
     border: 1.5px solid rgba(6, 54, 87, 0.5);
     border-radius: 10px;
     font-family: 'Inter', sans-serif;
-    color: rgba(53, 54, 54, 0.4);
+    outline: none;
     width: 100%;
+}
+.form .container form input:focus,
+.form .container form input:valid{
+    border-color: #063657;
 }
 .form .container form input:active{
     border: 1px solid  rgba(6, 54, 87, 0.5);
