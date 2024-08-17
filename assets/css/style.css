@@ -19,6 +19,7 @@ git push
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    
 }
 
 html{
@@ -63,21 +64,21 @@ html{
    width: 90%;
    background-color: #063657;
    margin: auto;
-   height: 100vh;
-   padding-top: 20px;
+   height: 90vh;
+   /* padding-top: 20px; */
    position: relative;
 }
 
 .header .nav-mobile nav .footer{
     position: absolute;
-   bottom: 0;
+   bottom: 65px;
    width: 100%;
 }
 .header .nav-mobile nav .footer hr{
     margin-bottom: 10px;
 }
 .header .nav-mobile nav .footer h1{
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     font-family: 'Inter', sans-serif;
     align-items: center;;
@@ -187,6 +188,14 @@ html{
     justify-content: space-between;
     margin-top: 20px;
     width: 80%;
+}
+.hero .container .btn .btn1 a{
+    color: #FFFF;
+    text-decoration: none;
+}
+.hero .container .btn .btn2 a{
+    color: rgba(6, 54, 87, 1);
+    text-decoration: none;
 }
 .hero .container .btn .btn1{
     font-family: 'Inter', sans-serif;
@@ -623,26 +632,6 @@ content: "";
     height: 50px;
     width: 50%;
 }
-/* .partners .container:before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 35px;
-    height: 100%;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
-    z-index: 1000;
-    content: "";
-} */
-/* .partners .container:after{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 35px;
-    height: 100%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
-    z-index: 1000;
-    content: "";
-} */
 .partners .container .marquee .d1{
     width: 25%;
    background-image: url(/assets/images/amazon-removebg-preview.png);
@@ -802,4 +791,57 @@ footer .container .div .div2 p{
     font-size: 15px;
     padding: 6px 0px;
     color: #E1E2E4;
+}
+
+/* 
+REGISTRATION PAGE */
+.reg-hero{
+    width: 100%;
+    height: 250px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    background-color: #063757af;
+    background-color: rgba(0, 0, 0, 0.71);
+}
+.reg-hero .layer{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.71);
+     background-color: #063757af;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: 50px;
+    z-index: 2;
+    
+}
+.reg-hero .img{
+    background-image: url(/assets/images/overjoyed-dark-skinned-guy-concentrated-smartphone_273609-37410-removebg.png);
+    width: 90%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 250px;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.reg-hero .container{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+.reg-hero .container a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.reg-hero .container h2{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding-top: 30px;
+    font-size: 40px;
+    letter-spacing: 2px;
 }
