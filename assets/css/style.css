@@ -876,10 +876,13 @@ REGISTRATION PAGE */
 
 .form .container form input{
     font-size: 15px;
-    padding: 12px 5px;
+    padding: 17px 10px;
     border: 1.5px solid rgba(6, 54, 87, 0.5);
     border-radius: 10px;
     font-family: 'Inter', sans-serif;
     color: rgba(53, 54, 54, 0.4);
     width: 100%;
+}
+.form .container form input:active{
+    border: 1px solid  rgba(6, 54, 87, 0.5);
 }
