@@ -8,6 +8,11 @@
 #B9C9B0
 #FFC107
 #B9C9B0
+
+
+git add .
+git commit -m 'c'
+git push
 */
 
 *{
@@ -55,27 +60,30 @@ html{
     z-index: 500000;
 }
 .header .nav-mobile nav{
-   width: 85%;
+   width: 90%;
    background-color: #063657;
    margin: auto;
-   height: 200vh;
-   padding-top: 10px;
+   height: 100vh;
+   padding-top: 20px;
+   position: relative;
 }
+
 .header .nav-mobile nav .footer{
-    position: relative;
-    top: 70px;
+    position: absolute;
+   bottom: 0;
+   width: 100%;
 }
 .header .nav-mobile nav .footer hr{
     margin-bottom: 10px;
 }
 .header .nav-mobile nav .footer h1{
-    font-size: 17px;
+    font-size: 20px;
     color: white;
     font-family: 'Inter', sans-serif;
     align-items: center;;
     display: flex;
     padding-bottom: 9px;
-    font-weight: 400;
+    font-weight: 500;
 }
 .header .nav-mobile nav .footer h1 .bx{
     font-size: 19px;
@@ -105,7 +113,7 @@ html{
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
 }
 
