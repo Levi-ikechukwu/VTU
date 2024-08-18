@@ -1,0 +1,913 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ 
+
+/* COLORS
+
+#FFC107
+#063657 
+#B9C9B0
+#FFC107
+#B9C9B0
+
+
+git add .
+git commit -m 'c'
+git push
+*/
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* HEADER SECTION START */
+.header{
+    background-color: #FFFF;
+    padding: 20px 20px 20px 20px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+    
+}
+.header  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header  .logo h1{
+    font-family: 'Inter', sans-serif;
+    color: #063657;
+    font-size: 25px;
+}
+.header  .fa-solid{
+    font-size: 25px;
+    color: #353636;
+}
+.header .nav-mobile{
+    display: none;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+   position: fixed;
+    background-color: #063657;
+    width: 100%;
+    height: 100vh;
+    z-index: 500000;
+}
+.header .nav-mobile nav{
+   width: 90%;
+   background-color: #063657;
+   margin: auto;
+   height: 90vh;
+   /* padding-top: 20px; */
+   position: relative;
+}
+
+.header .nav-mobile nav .footer{
+    position: absolute;
+   bottom: 65px;
+   width: 100%;
+}
+.header .nav-mobile nav .footer hr{
+    margin-bottom: 10px;
+}
+.header .nav-mobile nav .footer h1{
+    font-size: 22px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    align-items: center;;
+    display: flex;
+    padding-bottom: 9px;
+    font-weight: 500;
+}
+.header .nav-mobile nav .footer h1 .bx{
+    font-size: 19px;
+    margin-right: 5px;
+}
+.header .nav-mobile nav .logo {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.header .nav-mobile nav .logo h1{
+    color: white;
+    font-size: 23px;
+}
+.header .nav-mobile nav .bx{
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+}
+
+.header .nav-mobile ul li{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.header .nav-mobile ul li a{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+
+
+/* HEADER SECTION END */
+
+/* HERO SECTION START */
+.hero{
+    background-color: #E1E2E4;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    top: 70px;
+    margin-bottom: 90px;
+}
+.hero .container{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+    height: 270px;
+}
+.hero .container .txt{
+    width: 80%;
+    z-index: 2;
+    margin-top: 20px;
+}
+.hero .container .txt .text h2{
+    font-family: 'Inter', sans-serif;
+    color: #063657;
+    font-size: 34px;
+    font-weight: 700;
+}
+.hero .container .txt .text .slides{
+
+    display: inline-flex;
+    height: 40px;
+    overflow: hidden;
+}
+.hero .container .txt .text .slides .slide1{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    transform: translateY(100%);
+    animation: slide-up 7s ease infinite;
+}
+@keyframes slide-up{
+    25%, 20%{
+        transform: translateY(0%);
+    }
+    50%, 50%{
+        transform: translateY(-110%);
+    }
+    75%, 80%{
+        transform: translateY(-210%);
+    }
+     100%,100%{
+        transform: translateY(-310%);
+    }
+}
+.hero .container .txt .text .slides .slide1 span{
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.hero .container .btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 95%;
+}
+.hero .container .btn .btn1 a{
+    color: #FFFF;
+    text-decoration: none;
+}
+.hero .container .btn .btn2 a{
+    color: rgba(6, 54, 87, 1);
+    text-decoration: none;
+}
+.hero .container .btn .btn1{
+    font-family: 'Inter', sans-serif;
+    padding: 13px 22px 13px 22px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(6, 54, 87, 1);
+    color: #FFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+.hero .container .btn .btn2{
+    font-family: 'Inter', sans-serif;
+    padding: 13px 29px 13px 29px;
+    border-radius: 8px;
+    border: 2px solid rgba(6, 54, 87, 1);
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(6, 54, 87, 1);
+}
+.hero .img{
+    background-image: url(/assets/images/overjoyed-dark-skinned-guy-concentrated-smartphone_273609-37410-removebg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    height: 270px;
+    top: 0px;
+    right: -110px;
+}
+
+/* HERO SECTION END*/
+
+
+
+
+/*SERVICES SECTION START */
+
+.services{
+    width: 100%;
+    /* height: 500px; */
+    background-color: #FFFF;
+    width: 100%;
+}
+.services .container{
+    background-color: #FFFF;
+    width: 90%;
+    margin: auto;
+    /* position: relative; */
+}
+.services .container h2{
+    color: #063657;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.services .container .divs{
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+   
+}
+.services .container .divs .div{
+    width: 100%;
+    height: 230px;
+    background-color: #FFC107;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 30px 0px 0px 10px;
+}
+.services .container .divs .div h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    line-height: 7px;
+}
+.services .container .divs .div1 p{
+    font-family: 'Inter', sans-serif;
+    color: #353636;
+    font-size: 17px;
+    font-weight: 500;
+}
+.services .container .divs .div .content{
+    width: 100%;
+    margin-top: 0px;
+
+}
+.services .container .divs .div1 .content .icons{
+   
+    background-position-x: -25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 150px;
+    position: relative;
+    top: 15px;
+}
+.services .container .divs .div1 .content .icons .img1{
+    width: 15%;
+    position: absolute;
+    top: 10px;
+    left: 110px;
+}
+.services .container .divs .div1 .content .icons .img2{
+    width: 18%;
+    position: absolute;
+    top: 8px;
+    left: 35px;
+}
+.services .container .divs .div1 .content .icons .img3{
+    width: 19%;
+    position: absolute;
+    top: 70px;
+    left: 25px;
+}
+.services .container .divs .div1 .content .icons .img4{
+    width: 25%;
+    position: absolute;
+    top: 80px;
+    left: 90px;
+}
+.services .container .divs .div1{
+    /* padding-bottom: 30px; */
+    position: relative;
+}
+.services .container .divs .div1  .tp{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    position: absolute;
+    right:  0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    top: 185px;
+    color: #FFC107;
+}
+.services .container .divs .div  .tp .fa{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 6px;
+    font-weight: 700;
+}
+
+.services .container .divs .div2{
+    /* padding-bottom: 30px; */
+    position: relative;
+}
+.services .container .divs .div2 p{
+    font-family: 'Inter', sans-serif;
+    color: #353636;
+    font-size: 17px;
+    font-weight: 500;
+}
+.services .container .divs .div2 .content .icons{
+    background-image: url(/assets/images/Remove-bg.ai_1723453624627.png);
+    background-position-x: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 148px;
+    position: relative;
+    top: 15px;
+}
+.services .container .divs .div2 .content .icons .img1{
+    width: 13%;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+.services .container .divs .div2 .content .icons .img2{
+    width: 10%;
+    position: absolute;
+    top: 20px;
+    left: 130px;
+}
+.services .container .divs .div2 .content .icons .img3{
+    width: 13%;
+    position: absolute;
+    top: 100px;
+    left: 130px;
+}
+.services .container .divs .div2  .tp{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    position: absolute;
+    right:  -8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    top: 185px;
+    color: #FFC107;
+}
+.services .container .divs .div3{
+    /* padding-bottom: 30px; */
+    position: relative;
+}
+.services .container .divs .div3 p{
+    font-family: 'Inter', sans-serif;
+    color: #353636;
+    font-size: 17px;
+    font-weight: 500;
+}
+.services .container .divs .div3 .content .icons{
+    background-image: url(/assets/images/3d\ render\ smartphone\ payment\ confirmation\ bill.png);
+    background-position-x: -15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 138px;
+    position: relative;
+    top: 0px;
+}
+.services .container .divs .div3  .tp{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    position: absolute;
+    right:  -8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    top: 190px;
+    color: #FFC107;
+}
+
+.services .container .divs .div4{
+    /* padding-bottom: 30px; */
+    position: relative;
+}
+.services .container .divs .div4 p{
+    font-family: 'Inter', sans-serif;
+    color: #353636;
+    font-size: 17px;
+    font-weight: 500;
+}
+.services .container .divs .div4 .content .icons{
+    background-image: url(/assets/images/image\ 2.png);
+    background-position-x: px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 138px;
+    position: relative;
+    top: 0px;
+}
+.services .container .divs .div4  .tp{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    position: absolute;
+    right:  -8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    top: 190px;
+    color: #FFC107;
+}
+/*SERVICES SECTION END */
+
+
+
+/*WHY CHHOOSE US SECTION START */
+.why{
+    width: 100%;
+    /* background-color: red; */
+}
+.why .container{
+    width: 90%;
+    margin: auto;
+
+}
+.why .container h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #063657;
+    padding-bottom: 7px;
+}
+.why .container .txt{
+    width: 95%;
+    margin: auto;
+}
+.why .container .txt .txt1{
+    margin-bottom: 15px;
+}
+.why .container .txt .txt1 .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.why .container .txt .txt1 .head h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #385E79;
+    padding-left: 4px;
+    font-size: 20px;
+}
+.why .container .txt .txt1 .head .mm{
+ font-size: 20px;
+ text-align: center;
+ padding-bottom: 3px;
+ color: #385E79;
+}
+.why .container .txt .txt1 p{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    color: #424141;
+}
+.testi{
+    width:100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.testi .container{
+    width: 90%;
+    margin: auto;
+}
+.testi .container h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #063657;
+}
+.test{
+    width: 90%;
+    /* height: 210px; */
+    background-color: #E1E2E4;
+    margin: auto;
+    border-radius: 10px;
+    padding: 35px 28px;
+    margin-bottom: 45px;
+}
+.test .text p{
+    font-family: 'Inter', sanserif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: justify;
+}
+.test .pic{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+}
+.test .pic .name h2{
+    font-size: 20px;
+    color: #353636;
+    font-family: 'Inter', sans-serif;
+}
+.test .pic .profile{
+    width: 50%;
+    height: 65px;
+    /* background-color: white; */
+    background-image: url(/assets/images/Ellipse\ 9@1x.png);
+    background-repeat: no-repeat;
+    background-position-x: 45px ;
+    background-size: contain;
+}
+.swiper .next{
+    background-color: #063757;
+    width: 40px;
+    height: 40px;
+    border-radius: 70px;
+    position: absolute;
+    top: 130px;
+    right: 2px;
+}
+.swiper .prev{
+    background-color: #063757;
+    width: 40px;
+    height: 40px;
+    border-radius: 70px;
+    position: absolute;
+    top: 130px;
+    left: 3px;
+}
+
+.swiper .next .bx,
+.swiper .prev .bx{
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+}
+.swiper .next::after,
+.swiper .prev::after{
+content: "";
+}
+.swiper .swiper-pagination-bullet-active{
+    background-color:#063757 !important;
+}
+
+.partners{
+    width: 100%;
+    background-color: #FFFF;
+    margin-top: 10px;
+}
+.partners .container{
+    /* background-color: red; */
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.partners .container h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    color: #063657;
+}
+.partners .container .marquee {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    animation: 20s slide infinite linear;
+    gap: 3%;
+   /* background-color: red; */
+}
+.partners .container .marquee .d1{
+    height: 50px;
+    width: 50%;
+}
+.partners .container .marquee .d1{
+    width: 25%;
+   background-image: url(/assets/images/amazon-removebg-preview.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    /* background-color: red; */
+}
+.partners .container .marquee .d2{
+    width: 20%;
+   background-image: url(/assets/images/mtn-logo-872C5CC8E9-seeklogo.com.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+    /* background-color: red; */
+}
+.partners .container .marquee .d3{
+    width: 25%;
+   background-image: url(/assets/images/images-removebg-preview.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+    /* background-color: red; */
+}
+.partners .container .marquee .d4{
+    width: 25%;
+   background-image: url(/assets/images/th-removebg-preview\ \(1\).png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+    /* background-color: red; */
+}
+.partners .container .marquee .d5{
+    width: 35%;
+   background-image: url(/assets/images/gotv-removebg-preview.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.partners .container .marquee .d6{
+    width: 30%;
+   background-image: url(/assets/images/spectranet-removebg-preview.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+    /* background-color: red; */
+}
+@keyframes slide{
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-100%);
+        }
+}
+
+.log{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ffc10734;
+    /* margin-bottom: 20px; */
+}
+.log .container{
+    width: 85%;
+    margin: auto;
+    padding: 25px 0px;
+}
+.log .container h1{
+        font-family: 'Inter', sans-serif;
+        color: #063657;
+        font-size: 25px;
+        padding-bottom: 12px;
+ }
+ .log .container h2{
+    font-family: 'Inter', sans-serif;
+    color: #063657;
+    font-size: 21px;
+    padding-bottom: 15px;
+}
+.log .container .btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 80%;
+}
+.log .container .btn .btn1{
+    font-family: 'Inter', sans-serif;
+    padding: 13px 22px 13px 22px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(6, 54, 87, 1);
+    color: #FFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+.log .container .btn .btn2{
+    font-family: 'Inter', sans-serif;
+    padding: 13px 29px 13px 29px;
+    border-radius: 8px;
+    border: 2px solid rgba(6, 54, 87, 1);
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(6, 54, 87, 1);
+}
+footer{
+    width: 100%;
+    background-color: #063657;
+    padding: 50px 0px;
+}
+footer .container{
+    margin: auto;
+    width: 90%;
+}
+footer .container .div{
+    display: flex;
+    gap: 10%;
+    flex-wrap: nowrap;
+}
+footer .container .div .div1 h2{
+    font-family: 'Inter', sans-serif; 
+    color: #FFF;
+    font-size: 22px;
+    padding: 8px 0px;
+    font-weight: 600;
+}
+footer .container .div .div1 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding: 7px 0px;
+    color: #E1E2E4;
+}
+footer .container .div .div1 .logo{
+    margin-top: 10px;
+}
+footer .container .div .div1 .logo .bx,
+footer .container .div .div1 .logo .fa-brands{
+    font-size: 30px;
+    color: #FFF;
+    padding-right: 5px;
+}
+footer .container .div .div1{
+    width: 48%;
+}
+footer .container .div .div2{
+    width: 48%;
+    text-align: center;
+}
+footer .container .div .div2 h2{
+    font-family: 'Inter', sans-serif; 
+    color: #FFF;
+    font-size: 22px;
+    padding: 5px 0px;
+    font-weight: 600;
+}
+footer .container .div .div2 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding: 6px 0px;
+    color: #E1E2E4;
+}
+
+/* 
+REGISTRATION PAGE */
+.reg-hero{
+    width: 100%;
+    height: 220px;
+    border-bottom-right-radius: 35px;
+    position: relative;
+    background-color: #063757af;
+    background-color: rgba(0, 0, 0, 0.71);
+}
+.reg-hero .layer{
+    width: 100%;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.71);
+     background-color: #063757af;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: 35px;
+    z-index: 2;
+    
+}
+.reg-hero .img{
+    background-image: url(/assets/images/overjoyed-dark-skinned-guy-concentrated-smartphone_273609-37410-removebg.png);
+    width: 90%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 220px;
+    top: 0px;
+    right: -30px;
+    z-index: 1;
+}
+.reg-hero .container{
+    width: 85%;
+    margin: auto;
+    padding-top: 30px;
+}
+.reg-hero .container a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.reg-hero .container h2{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding-top: 30px;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.form{
+
+    width: 100%;
+}
+.form .container{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+
+}
+.form .container p{
+    font-family: 'Inter', sans-serif;
+    color: #353636;
+    font-weight: 500;
+    font-size: 15px;
+}
+.form .container form{
+    width: 100%;
+    margin-top: 15px;
+}
+.form .container form h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: #063657;
+    padding-bottom: 3px;
+    padding-bottom: 7px;
+}
+
+.form .container form input{
+    font-size: 15px;
+    padding: 17px 10px;
+    border: 1.5px solid rgba(6, 54, 87, 0.5);
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    width: 100%;
+}
+.form .container form input:focus{
+    border-color: #063657;
+}
+.form .container form input:active{
+    border: 1px solid  rgba(6, 54, 87, 0.5);
+}
+.btn222{
+   width: 90%;
+   margin: auto;
+   margin-top: 30px ;
+   margin-bottom: 30px;
+}
+ .btn222 .btn1 a{
+    color: #FFFF;
+    text-decoration: none;
+}
+ .btn222 .btn1{
+    font-family: 'Inter', sans-serif;
+    padding: 13px 22px 13px 22px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(6, 54, 87, 1);
+    color: #FFFF;
+    font-weight: 500;
+    font-size: 16px;
+    position: absolute;
+    right: 0px;
+}
